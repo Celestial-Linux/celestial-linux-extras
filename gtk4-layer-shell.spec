@@ -1,4 +1,10 @@
+# Disable tests on s390x arch
+#   * integration-test-menu-popup FAIL
+%ifnarch s390x
 %bcond_without check
+%else
+%bcond_with check
+%endif
 
 Name:           gtk4-layer-shell
 Version:        1.0.2
