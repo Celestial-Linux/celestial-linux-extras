@@ -12,7 +12,7 @@ Release:        %autorelease
 Summary:        Library to create panels and other desktop components for Wayland
 
 License:        MIT
-URL:            https://github.com/KernelFreeze/gtk4-layer-shell
+URL:            https://github.com/wmww/gtk4-layer-shell
 Source0:        %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  gcc
