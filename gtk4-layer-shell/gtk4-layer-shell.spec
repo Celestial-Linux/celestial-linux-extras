@@ -7,13 +7,13 @@
 %endif
 
 Name:           gtk4-layer-shell
-Version:         1.0.4
+Version:        1.0.4
 Release:        %autorelease
 Summary:        Library to create panels and other desktop components for Wayland
 
 License:        MIT
 URL:            https://github.com/wmww/gtk4-layer-shell
-Source0:        %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
+Source:         %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  gcc
 BuildRequires:  meson >= 0.51.1
